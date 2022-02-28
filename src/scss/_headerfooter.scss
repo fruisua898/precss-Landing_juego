@@ -1,0 +1,33 @@
+header, footer {
+
+  display: flex;
+
+  button {
+    height: auto;
+    width: auto;
+    font-size: 1.5rem;
+    border-radius: 20%;
+  }
+
+}
+header {
+  button{
+    color: white;
+    background: midnightblue;
+
+  }
+  button:hover{
+    color: midnightblue;
+    background: white;
+
+  }
+}
+
+footer {
+  button{
+    background: black;
+  }
+  button:hover{
+    background: gray;
+  }
+}

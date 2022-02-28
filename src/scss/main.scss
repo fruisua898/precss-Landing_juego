@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,100&family=Merriweather:ital@1&display=swap');
+
+@import "menu";
+@import "flex";
+@import "headerfooter";
+
+
+@mixin fontStyle ($color, $fontsize, $family){
+  color: $color;
+  font{
+    size: $fontsize;
+    family: $family;
+  }
+}
+
+/*@mixin width ($width, $padding){
+  width: $width;
+  padding: $padding;
+}*/
+
+
+body{
+  background: linear-gradient(315deg, #485461 0%, #28313b 74%);
+}
+
+
+section {
+    //@include width(85%, 15%);
+    p{
+      @include fontStyle(aliceblue, 3rem, 'Merriweather');
+    }
+
+  }
+
+header{
+  margin-bottom: 5rem;
+}

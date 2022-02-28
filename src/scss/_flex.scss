@@ -1,0 +1,33 @@
+.flex-container{
+  flex-direction: column;
+}
+.flex-container, .flex-svg, .flex-header, .flex-footer {
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: normal;
+
+  .flex-description, .flex-hr, .flex-video,  .flex-audio, .flex-svg, .flex-img, {
+    width: 90%;
+    display: block;
+    flex-basis: auto;
+    align-self: auto;
+  }
+  .flex-hr{
+    margin:{
+      top: 5rem;
+      bottom: 5rem;
+    }
+  }
+
+
+  .flex-svg,  .flex-footer-list {
+    display: inline-flex;
+    flex-direction: row;
+    .flex-svg1, .flex-svg2{
+      width: 45%;
+    }
+  }
+}
