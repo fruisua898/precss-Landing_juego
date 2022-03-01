@@ -7,6 +7,6 @@
   },
   "dependencies": {
     "browserlist": "^1.0.1",
-    "browserslist": "> 0.5%, last 2 versions, not dead"
+    "browserslist": "> 0.3%, last 3 versions, not dead"
   }
 }
