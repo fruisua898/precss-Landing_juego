@@ -3,6 +3,7 @@
 <head>
     <meta charset="utf-8"/>
     <link rel="stylesheet" href="scss/main.scss"/>
+    <script type="module" src="./js/carrusel.js"></script>
     <title>Darkest Pixel</title>
 
 </head>
@@ -27,7 +28,7 @@
 
         <main class="flex-container">
 
-            <img idsrc="assets/hr.png"/>
+            <img class="flex-hr" src="./assets/hr.png"/>
 
             <section class="flex-description" >
 
@@ -50,43 +51,61 @@
 
             </section>
 
-            <img class="flex-hr" src="assets/hr.png"/>
+            <img class="flex-hr" src="./assets/hr.png"/>
 
 
             <section class="flex-video">
                 <video width="100%" height="100%" controls>
-                    <source src="assets/intro.mp4" type="video/mp4">
-                    <source src="assets/intro.ogg" type="video/ogg">
+                    <source src="./assets/intro.mp4" type="video/mp4">
+                    <source src="./assets/intro.ogg" type="video/ogg">
                     Your browser does not support the video tag.
                 </video>
             </section>
 
-            <img class="flex-hr" src="assets/hr.png"/>
+            <img class="flex-hr" src="./assets/hr.png"/>
 
             <section class="flex-audio">
                     <audio controls>
-                        <source  src="assets/ddost.mp3">
-                        <source  src="assets/ddost.ogg">
+                        <source  src="./assets/ddost.mp3">
+                        <source  src="./assets/ddost.ogg">
                         Your browser does not support the audio element.
                     </audio>
             </section>
 
 
-            <img class="flex-hr" src="assets/hr.png"/>
+            <img class="flex-hr" src="./assets/hr.png"/>
 
 
             <section class="flex-svg">
-                <img class="flex-svg1" src="assets/knight.svg"/>
-                <img class="flex-svg2" src="assets/plage.svg"/>
+                <img class="flex-svg1" src="./assets/knight.svg"/>
+                <img class="flex-svg2" src="./assets/plage.svg"/>
             </section>
 
-            <img class="flex-hr" src="assets/hr.png"/>
+            <img class="flex-hr" src="./assets/hr.png"/>
 
 
-            <img class="flex-img" src="assets/world.png"/>
+            <section class="carrousel">
+
+                <article class="grande">
+                    <img src="./assets/scenario_1.png" alt="" class="img">
+                    <img src="./assets/scenario_2.png#" alt="Imagen2" class="img">
+                    <img src="./assets/scenario_3.png" alt="Imagen3" class="img">
+                </article>
+
+                <ul class="puntos">
+                    <li class="punto activo"></li>
+                    <li class="punto"></li>
+                    <li class="punto"></li>
+                </ul>
+
+            </section>
 
 
-            <img class="flex-hr" src="assets/hr.png"/>
+
+            <!--img class="flex-img" src="./assets/world.png"/-->
+
+
+            <img class="flex-hr" src="./assets/hr.png"/>
 
         </main>
 
